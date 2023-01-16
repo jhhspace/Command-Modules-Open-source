@@ -13,7 +13,7 @@ module.exports = {
 
     run: async(client, message, args, Discord) => {
     weather.find({search: args.join(" "), degreeType: 'C'}, function (error, result){
-        // Degree type can be in 'C' and 'F'
+        // 'C' can be changed to 'F' for farneheit results
         if(error) return message.channel.send(error);
         if(!args[0]) return message.channel.send('Please specify a location')
 
