@@ -5,7 +5,7 @@ module.exports = {
     name: 'kick',
     description: 'kick a user',
     async execute(message, args) {
-        if (message.member.hasPermission("KICK_MEMBERS") || message.author.id === "898569996949676052") {
+        if (message.member.hasPermission("KICK_MEMBERS") {
 
             const member = message.mentions.members.first() || message.guild.members.cache.get(args[0]);
             if(!args[0]) return message.channel.send('Please specify a user');
