@@ -1,4 +1,4 @@
-# Jhhspace-code-sharing
+# C-M-O-S
 Command Module code SRC (Open Source)
 
 Modifications are all allowed, no copyrights are in place. Feel free to credit me if you want.
